@@ -10,7 +10,8 @@ keywords = ["audio", "samplerate"]
 license = "BSD-2-Clause"
 
 [dependencies]
-libsamplerate-sys = "0.1.10"
+# libsamplerate-sys = "0.2.2"
+libsamplerate-sys = { git = "https://github.com/xjerod/libsamplerate-sys.git" }
 
 [dev-dependencies]
 hound = "3.4"
